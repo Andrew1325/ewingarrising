@@ -31,7 +31,7 @@
           st = window.pageYOffset || document.documentElement.scrollTop
           oldScroll = st <= 0 ? 0 : st; // For Mobile or negative scrolling
           document.addEventListener('scroll', scrolling);
-        }, 2500)
+        }, 3500)
         
       } else {
         if (ind === 0) {
@@ -52,7 +52,7 @@
           st = window.pageYOffset || document.documentElement.scrollTop
           oldScroll = st <= 0 ? 0 : st; // For Mobile or negative scrolling
           document.addEventListener('scroll', scrolling);
-        }, 2500)
+        }, 3500)
       } 
     }
   
@@ -72,7 +72,7 @@
     
     setTimeout(function() {
       document.addEventListener("scroll", scrolling);
-    }, 2500)
+    }, 3500)
   })
 </script>
 

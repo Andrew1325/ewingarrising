@@ -187,6 +187,25 @@
     .logoWht img{
       width: 26vw;
     }
+    
+  }
+
+  @media only screen and (max-width: 600px) and (orientation: landscape) {
+    .bord-bottom {
+      bottom: -5px;
+    }
+    .book, .face {
+      width: 244px;
+    }
+    .book {
+      top: 60%;
+    }
+    .face {
+      top: 90%;
+    }
+    .face svg {
+      transform: translateY(-30%)
+    }
   }
 
   @media only screen and (min-width: 601px) and (max-width: 920px) and (orientation: landscape) {

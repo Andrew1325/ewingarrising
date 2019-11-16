@@ -58,8 +58,8 @@
 
   .content1 {
     position: absolute;
-    top: 13%;
-    left: 22%;
+    top: 15%;
+    right: 22%;
     transform: translateX(-500%);
     opacity: 0;
   }
@@ -78,7 +78,7 @@
   .content2 {
     position: absolute;
     top: 50%;
-    right: 22%;
+    left: 22%;
     transform: translate(500%, -50%);
     opacity: 0;
   }
@@ -96,8 +96,8 @@
 
   .content3 {
     position: absolute;
-    bottom: 13%;
-    left: 22%;
+    bottom: 15%;
+    right: 22%;
     transform: translateX(-500%);
     opacity: 0;
   }
@@ -230,7 +230,19 @@
 
   @media only screen and (max-width: 600px) {
     p {
-      font-size: 1rem;
+      font-size: .85rem;
+    }
+    .content1 {
+      top: 6%
+    }
+    .content3 {
+      bottom: 6%
+    }
+  }
+
+  @media only screen and (max-width: 600px) and (orientation: landscape) {
+    .border-bottom {
+      bottom: -5px;
     }
   }
 
